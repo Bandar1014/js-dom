@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dom-lesson</title>
+    <style>
+    
+    .img{
+        border:1px solid black;
+        height: 70vh;
+        display: flex;
+        justify-content: flex-end;
+        align-items: flex-end;
+        
+
+    }
+    
+   
+    body {
+  padding: 25px;
+  background-color: white;
+  color: black;
+  font-size: 25px;
+}
+
+.dark-mode {
+  background-color: black;
+  color: white;
+}
+.q2{
+    padding: 25px;
+    margin: 25px;
+}
+
+</style>
+</head>
+<body>
+    
+    
+
+
+   
+<button onclick="myFunction()">Click</button>
+
+<div class="mydiv">
+<div>
+    <p id="text"></p>
+</div>
+   
+
+<div class="img" id="img">
+    <img onclick="purple()" src="./purple.png" width="100px">
+    <img onclick="blue()" src="./blue.png" width="100px">
+</div>
+</div>
+
+<!-- lab -->
+
+
+<div class="q1">
+    <p id="paragraph">
+        I love you
+    </p>
+    <button onclick="btn1()">Change paragraph</button>
+    <button onclick="btn2()">Increase font</button>
+    <button onclick="btn3()">Dicrease font</button>
+    <button  onclick="btn4()">change color of text</button>
+    
+</div>
+
+<div class="q2">
+    <img id="myImg" src="./Snapchat-1024648715_edited.jpg">
+<button id="myButton">Change Image</button>
+</div>
+
+<div class="q3">
+    <button id="ale"  onclick="btn5()">alert</button>
+
+</div>
+
+
+
+
+    <script src="./main.js"></script>
+</body>
+</html>
